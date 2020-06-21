@@ -1,5 +1,9 @@
 
-nav {
+body, nav, header, footer {
+    font-family: 'Muli';
+}
+
+#navbar {
     display: flex;
     background-color: white;
     color: aquamarine;
@@ -8,15 +12,14 @@ nav {
 }
 
 div.navbar{
+    
     background-color: pink;
     justify-content: space-evenly;
-    flex-direction: row-reverse;
+    text-decoration: none;
 }
 
 body {
     background: #1F2425;
-    font-family: circe-rounded, sans-serif;
-    font-weight: 300;
-    font-style: normal;
     margin: 0 2%;
+    color: white;
 }
