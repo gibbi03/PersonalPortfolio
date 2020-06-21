@@ -1,0 +1,14 @@
+body {
+    background: #1F2425;
+}
+
+nav {
+    display: flexbox;
+    background-color: white;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+}
