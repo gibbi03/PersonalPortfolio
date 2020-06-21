@@ -5,7 +5,17 @@ body, nav, header, footer {
 
 header {
     display: flex;
+    flex-flow: wrap column;
     justify-content: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
 }
 
 #navbar {
@@ -15,6 +25,7 @@ header {
     background-color: white;
     color: aquamarine;
     margin: 0 -2%;
+    padding: 10px 2%;
 }
 
 #navbar a:link {
