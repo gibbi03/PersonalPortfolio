@@ -3,33 +3,39 @@ body, nav, header, footer {
     font-family: 'Muli';
 }
 
+/*---------HEADER-----------*/
 header {
-    padding: 20px 0;
+    padding: 0;
+    margin: 0 -2%;
+    background-color: white;
 }
 
 header h1 {
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding: 20px 0 0;
+    margin: 0 -2%;
     letter-spacing: .1rem;
     font-size: 2.5rem;
-    
+    background-color: #1F2425;
 }
 
 header h2 {
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: .43rem;
-    padding: 0;
-    margin: 0;
+    padding: 0 0 20px;
+    margin: 0 -2%;
+    background-color: #1F2425;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
 }
 
+/*----------NAVBAR-----------*/
 #navbar {
     display: flex;
     justify-content: center;
     flex-direction: row;
     background-color: white;
-    color: aquamarine;
     margin: 0 -2%;
     padding: 10px 2%;
 }
@@ -56,13 +62,47 @@ font-size: 1.2rem;
     color: gray;
 }
 
+/*---------BODY-------------*/
 body {
-    background: #1F2425;
+    background-color: white;
     margin: 0 2%;
     color: white;
 }
 
-section a:link{
-    color: white;
+body h1 {
+    text-align: center;
+    margin-top: 0;
+}
 
+#welcome-section {
+    background-color: #1F2425;
+    border-radius: 50px;
+    padding: 20px 2%;
+}
+
+#projects {
+    background-color: #1F2425;
+    border-radius: 50px;
+    padding: 20px 2%;
+    margin: 50px 0;
+}
+
+section a:link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+section a:visited {
+    color: pink;
+}
+
+section a:hover {
+    color: lightgrey;
+}
+
+/**/
+footer {
+    color: #1F2425;
+    letter-spacing: .5rem;
+    text-align: center;
 }
