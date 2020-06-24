@@ -6,16 +6,17 @@ body, nav, header, footer {
 
 /*---------HEADER-----------*/
 header {
-    padding: 0;
+    padding-right: 12px;
+    padding-left: 12px;
     margin: 50px auto 0;
-    background-color: #1F2425;
+    background-color: #6ac9da;
     width: 22%;
     border-radius: 30px;
 }
 
 header h1 {
     text-align: center;
-    padding: 12px 0 0;
+    padding-top: 12px;
     margin: 0 -2%;
     letter-spacing: .1rem;
     font-size: 2.5rem;
@@ -25,7 +26,7 @@ header h2 {
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: .43rem;
-    padding: 0 0 20px;
+    padding-bottom: 20px;
     margin: 0 -2%;
 }
 
@@ -34,8 +35,8 @@ header h2 {
     display: flex;
     justify-content: start;
     flex-direction: row;
-    background-color: white;
-    margin: 0 -2%;
+    background-color: #1F2425;
+    margin: 0 -2% 0 0;
     padding: 10px 2.8%;
     position: fixed;
     width: 100%;
@@ -44,16 +45,32 @@ header h2 {
 
 #navbar div {
 margin: 0 .5%;
-font-size: 1.2rem;
+font-size: 1.3rem;
 }
 
-#navbar a:link {
+#navwelcome a:link {
+    background-color: #fa9f84;
+    color: black;
+}
+
+#navwelcome a:visited {
+    color: black;
+}
+
+#navprojects a:link {
+    background-color: rgb(250, 233, 185);
+    color: black;
+    
+}
+
+#navprojects a:visited {
+    color: black;
+}
+
+#navbar a:link{
     text-decoration: none;
-    color: #1F2425
-}
-
-#navbar a:visited {
-    color: #1F2425;
+    border-radius: 50px;
+    padding: 8px 13px;
 }
 
 #navbar a:active {
@@ -66,48 +83,67 @@ font-size: 1.2rem;
 
 /*---------BODY-------------*/
 body {
-    background-color: white;
+    background-color: #1F2425;
     margin: 0 2%;
-    color: white;
+    color: #1F2425;
 }
 
-body h1 {
-    text-align: center;
-    margin-top: 0;
+section h1 {
+    font-size: 2.25rem;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#welcome-section p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+section ul {
+    font-size: 24px;
 }
 
 #welcome-section {
-    background-color: #1F2425;
+    background-color: #fa9f84;
     border-radius: 50px;
-    padding: 20px 2%;
+    padding: 10px 2%;
     height: 95.5vh;
     overflow: auto;
-    margin: 30px 0
-}
-
-#projects {
-    background-color: #1F2425;
-    border-radius: 50px;
-    padding: 20px 2%;
     margin: 30px 0;
 }
 
+#projects {
+    background-color: rgb(250, 233, 185);
+    border-radius: 50px;
+    padding: 10px 2%;
+    margin: 30px 0;
+}
+
+#projects ul {
+    margin: 0 0 30px 0;
+}
+
+#projects li {
+    margin: 5px 0 ;
+    font-size: 24px;
+}
+
 section a:link {
-    text-decoration: none;
-    color: aquamarine;
+    text-decoration: underline;
+    color: rgb(97, 156, 127)
 }
 
 section a:visited {
-    color: pink;
+    color: rgb(72, 117, 95);
 }
 
 section a:hover {
-    color: lightgrey;
+    color: gray;
 }
 
 /*----------FOOTER----------*/
 footer {
-    color: #1F2425;
+    color: white;
     letter-spacing: .5rem;
     text-align: center;
 }
