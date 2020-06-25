@@ -2,7 +2,7 @@
 body, nav, header, footer {
     font-family: 'Muli';
 }
-/*:::::::::DESKTOP:::::::::*/
+/*:::::::::PHONE:::::::::*/
 @media only screen and (max-width: 600px) {
 /*---------HEADER-----------*/
 header {
@@ -22,6 +22,7 @@ header h2 {
     font-size: 1.2rem;
     letter-spacing: .43rem;
     margin: 0 35px;
+    text-shadow: 1px 1px 10px white;
 }
 
 /*----------NAVBAR-----------*/
@@ -151,13 +152,14 @@ section a:hover {
         margin: 0 35px;
         letter-spacing: .1rem;
         font-size: 2.5rem;
-        text-shadow: 1px 1px 10px black;
+        text-shadow: 1px 1px 2px black;
     }
     
     header h2 {
         font-size: 1.2rem;
         letter-spacing: .43rem;
         margin: 0 35px;
+        text-shadow: 1px 1px 3px black;
     }
     
     /*----------NAVBAR-----------*/
@@ -172,49 +174,60 @@ section a:hover {
         position: fixed;
         width: 100%;
         top: 0;
-        box-shadow: 1px 1px 10px black;
+        box-shadow: 0px 0px 3px black;
     }
     
     #navbar div {
     font-size: 1.3rem;
     margin-left: 2%;
+    box-shadow: 0px 0px 3px black;
+    padding: 3px 18px;
     }
     
+    #navwelcome {
+        border: 2px solid #ff9d6f;
+        border-radius: 6px;
+    }
+
     #navwelcome a:link {
-        background-color: #fa9f84;
-        color: black;
+        background-color: #1F2425;
+        color: #ff9d6f;
+
     }
     
     #navwelcome a:visited {
-        color: black;
+        color: #ff9d6f;
     }
     
+    #navprojects {
+        border: 2px solid rgb(252, 204, 132);
+        border-radius: 6px;
+        margin-left: -55px;
+    }
+
     #navprojects a:link {
-        background-color: rgb(252, 204, 132);
-        color: black;
+        color: rgb(252, 204, 132);
     }
     
     #navprojects a:visited {
-        color: black;
+        color: rgb(252, 204, 132);
     }
     
     #navbar a:link{
         text-decoration: none;
-        border-radius: 50px;
-        padding: 6px 13px;
     }
     
     #navbar a:active {
-        color: gray;
+        color: white;
     }
     
     #navbar a:hover {
-        color: gray;
+        color: white;
     }
     
     /*---------BODY-------------*/
     body {
-        background-color: #1F2425;
+        background-color: #2d3435;
         margin: 0 2%;
         color: black;
     }
@@ -223,6 +236,8 @@ section a:hover {
         font-size: 2.25rem;
         margin: 0;
         padding-top: 25px;
+        color: rgb(255, 243, 227);
+        font-weight: 400;
     }
     
     section ul {
@@ -230,12 +245,14 @@ section a:hover {
     }
     
     #welcome-section {
-        background-color: #fa9f84;
-        border-radius: 50px;
+        background-color: #1F2425;
+        border: 2px solid #ff9d6f;
+        border-radius: 15px;
         padding: 0 35px;
-        height: 100vh;
+        height: 99.7vh;
         overflow: auto;
-        box-shadow: 1px 1px 10px black;
+        box-shadow: 0px 0px 3px black;
+        color: rgb(255, 243, 227);
     }
     
     #welcome-section p {
@@ -243,16 +260,23 @@ section a:hover {
         margin-top: 10px;
     }
     
+    #welcome-section ul {
+        list-style-type: circle;
+    }
+    
     #projects {
-        background-color: rgb(252, 204, 132);
-        border-radius: 50px;
+        background-color: #1F2425;
+        border: 2px solid rgb(252, 204, 132);
+        border-radius: 15px;
         padding: 0 35px 35px;
-        margin: 30px 0;
-        box-shadow: 1px 1px 10px black;
+        margin: 50px 0;
+        box-shadow: 0px 0px 10px black;
+        color: rgb(255, 243, 227);
     }
     
     #projects ul {
         margin: 0 0 30px 0;
+        list-style-type: circle;
     }
     
     #projects li {
@@ -262,15 +286,15 @@ section a:hover {
     
     section a:link {
         text-decoration: underline;
-        color: rgb(97, 156, 127)
+        color: #6ac9da;
     }
     
     section a:visited {
-        color: rgb(72, 117, 95);
+        color: #6ac9da;
     }
     
     section a:hover {
-        color: gray;
+        color: rgb(255, 243, 227);
     }
     }
     
