@@ -4,143 +4,6 @@ body, nav, header, footer {
 }
 /*:::::::::PHONE:::::::::*/
 @media only screen and (max-width: 600px) {
-/*---------HEADER-----------*/
-header {
-    margin: 70px auto 30px;
-    color: #6ac9da;
-}
-
-header h1 {
-    padding-top: 12px;
-    margin: 0 35px;
-    letter-spacing: .1rem;
-    font-size: 2.5rem;
-    text-shadow: 1px 1px 10px black;
-}
-
-header h2 {
-    font-size: 1.2rem;
-    letter-spacing: .43rem;
-    margin: 0 35px;
-    text-shadow: 1px 1px 10px white;
-}
-
-/*----------NAVBAR-----------*/
-
-#navbar {
-    display: flex;
-    justify-content: start;
-    flex-direction: row;
-    background-color: #1F2425;
-    margin: 0 -2% 0;
-    padding: 15px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    box-shadow: 1px 1px 10px black;
-}
-
-#navbar div {
-font-size: 1.3rem;
-margin-left: 2%;
-}
-
-#navwelcome a:link {
-    background-color: #fa9f84;
-    color: black;
-}
-
-#navwelcome a:visited {
-    color: black;
-}
-
-#navprojects a:link {
-    background-color: rgb(252, 204, 132);
-    color: black;
-}
-
-#navprojects a:visited {
-    color: black;
-}
-
-#navbar a:link{
-    text-decoration: none;
-    border-radius: 50px;
-    padding: 6px 13px;
-}
-
-#navbar a:active {
-    color: gray;
-}
-
-#navbar a:hover {
-    color: gray;
-}
-
-/*---------BODY-------------*/
-body {
-    background-color: #1F2425;
-    margin: 0 2%;
-    color: black;
-}
-
-section h1 {
-    font-size: 2.25rem;
-    margin: 0;
-    padding-top: 25px;
-}
-
-section ul {
-    font-size: 24px;
-}
-
-#welcome-section {
-    background-color: #fa9f84;
-    border-radius: 50px;
-    padding: 0 35px;
-    height: 100vh;
-    overflow: auto;
-    box-shadow: 1px 1px 10px black;
-}
-
-#welcome-section p {
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-#projects {
-    background-color: rgb(252, 204, 132);
-    border-radius: 50px;
-    padding: 0 35px 35px;
-    margin: 30px 0;
-    box-shadow: 1px 1px 10px black;
-}
-
-#projects ul {
-    margin: 0 0 30px 0;
-}
-
-#projects li {
-    margin: 5px 0 ;
-    font-size: 24px;
-}
-
-section a:link {
-    text-decoration: underline;
-    color: rgb(97, 156, 127)
-}
-
-section a:visited {
-    color: rgb(72, 117, 95);
-}
-
-section a:hover {
-    color: gray;
-}
-}
-
-/*:::::::::Phone:::::::::*/
-@media only screen and (min-width: 601px) {
     /*---------HEADER-----------*/
     header {
         margin: 70px auto 30px;
@@ -152,14 +15,14 @@ section a:hover {
         margin: 0 35px;
         letter-spacing: .1rem;
         font-size: 2.5rem;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 0px 0px 2px black;
     }
     
     header h2 {
         font-size: 1.2rem;
         letter-spacing: .43rem;
         margin: 0 35px;
-        text-shadow: 1px 1px 3px black;
+        text-shadow: 0px 0px 2px black;
     }
     
     /*----------NAVBAR-----------*/
@@ -174,13 +37,13 @@ section a:hover {
         position: fixed;
         width: 100%;
         top: 0;
-        box-shadow: 0px 0px 3px black;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
     }
     
     #navbar div {
     font-size: 1.3rem;
     margin-left: 2%;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
     padding: 3px 18px;
     }
     
@@ -218,18 +81,17 @@ section a:hover {
     }
     
     #navbar a:active {
-        color: white;
+        color: rgb(255, 243, 227);
     }
     
     #navbar a:hover {
-        color: white;
+        color: rgb(255, 243, 227);
     }
     
     /*---------BODY-------------*/
     body {
         background-color: #2d3435;
         margin: 0 2%;
-        color: black;
     }
     
     section h1 {
@@ -251,7 +113,7 @@ section a:hover {
         padding: 0 35px;
         height: 99.7vh;
         overflow: auto;
-        box-shadow: 0px 0px 3px black;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
         color: rgb(255, 243, 227);
     }
     
@@ -263,14 +125,172 @@ section a:hover {
     #welcome-section ul {
         list-style-type: circle;
     }
-    
+
     #projects {
         background-color: #1F2425;
         border: 2px solid rgb(252, 204, 132);
         border-radius: 15px;
         padding: 0 35px 35px;
         margin: 50px 0;
-        box-shadow: 0px 0px 10px black;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
+        color: rgb(255, 243, 227);
+    }
+    
+    #projects ul {
+        margin: 0 0 30px 0;
+        list-style-type: circle;
+    }
+    
+    #projects li {
+        margin: 5px 0 ;
+        font-size: 24px;
+    }
+    
+    section a:link {
+        text-decoration: underline;
+        color: #6ac9da;
+    }
+    
+    section a:visited {
+        color: #6ac9da;
+    }
+    
+    section a:hover {
+        color: rgb(255, 243, 227);
+    }
+}
+
+/*:::::::::Phone:::::::::*/
+@media only screen and (min-width: 601px) {
+    /*---------HEADER-----------*/
+    header {
+        margin: 70px auto 30px;
+        color: #6ac9da;
+    }
+    
+    header h1 {
+        padding-top: 12px;
+        margin: 0 35px;
+        letter-spacing: .1rem;
+        font-size: 2.5rem;
+        text-shadow: 0px 0px 2px black;
+    }
+    
+    header h2 {
+        font-size: 1.2rem;
+        letter-spacing: .43rem;
+        margin: 0 35px;
+        text-shadow: 0px 0px 2px black;
+    }
+    
+    /*----------NAVBAR-----------*/
+    
+    #navbar {
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        background-color: #1F2425;
+        margin: 0 -2% 0;
+        padding: 15px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
+    }
+    
+    #navbar div {
+    font-size: 1.3rem;
+    margin-left: 2%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
+    padding: 3px 18px;
+    }
+    
+    #navwelcome {
+        border: 2px solid #ff9d6f;
+        border-radius: 6px;
+    }
+
+    #navwelcome a:link {
+        background-color: #1F2425;
+        color: #ff9d6f;
+
+    }
+    
+    #navwelcome a:visited {
+        color: #ff9d6f;
+    }
+    
+    #navprojects {
+        border: 2px solid rgb(252, 204, 132);
+        border-radius: 6px;
+        margin-left: -55px;
+    }
+
+    #navprojects a:link {
+        color: rgb(252, 204, 132);
+    }
+    
+    #navprojects a:visited {
+        color: rgb(252, 204, 132);
+    }
+    
+    #navbar a:link{
+        text-decoration: none;
+    }
+    
+    #navbar a:active {
+        color: rgb(255, 243, 227);
+    }
+    
+    #navbar a:hover {
+        color: rgb(255, 243, 227);
+    }
+    
+    /*---------BODY-------------*/
+    body {
+        background-color: #2d3435;
+        margin: 0 2%;
+    }
+    
+    section h1 {
+        font-size: 2.25rem;
+        margin: 0;
+        padding-top: 25px;
+        color: rgb(255, 243, 227);
+        font-weight: 400;
+    }
+    
+    section ul {
+        font-size: 24px;
+    }
+    
+    #welcome-section {
+        background-color: #1F2425;
+        border: 2px solid #ff9d6f;
+        border-radius: 15px;
+        padding: 0 35px;
+        height: 99.7vh;
+        overflow: auto;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
+        color: rgb(255, 243, 227);
+    }
+    
+    #welcome-section p {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    
+    #welcome-section ul {
+        list-style-type: circle;
+    }
+
+    #projects {
+        background-color: #1F2425;
+        border: 2px solid rgb(252, 204, 132);
+        border-radius: 15px;
+        padding: 0 35px 35px;
+        margin: 50px 0;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
         color: rgb(255, 243, 227);
     }
     
@@ -301,7 +321,7 @@ section a:hover {
 
 /*----------FOOTER----------*/
 footer {
-    color: white;
+    color: rgb(255, 243, 227);
     letter-spacing: .5rem;
     text-align: center;
 }
