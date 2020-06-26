@@ -4,10 +4,11 @@ body, nav, header, footer {
 }
 /*:::::::::PHONE:::::::::*/
 @media only screen and (max-width: 600px) {
-    /*---------HEADER-----------*/
+     /*---------HEADER-----------*/
     header {
-        margin: 70px auto 30px;
+        margin: 75px auto 30px;
         color: #6ac9da;
+        text-align: center;
     }
     
     header h1 {
@@ -94,12 +95,13 @@ body, nav, header, footer {
         margin: 0 2%;
     }
     
-    section h1 {
+    #welcome-section h1 {
         font-size: 2.25rem;
         margin: 0;
-        padding-top: 25px;
+        padding: 10px 2%;
         color: rgb(255, 243, 227);
         font-weight: 400;
+        border-bottom: 2px solid #ff9d6f;
     }
     
     section ul {
@@ -110,7 +112,6 @@ body, nav, header, footer {
         background-color: #1F2425;
         border: 2px solid #ff9d6f;
         border-radius: 15px;
-        padding: 0 35px;
         height: 99.7vh;
         overflow: auto;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
@@ -120,12 +121,21 @@ body, nav, header, footer {
     #welcome-section figure {
         width: 30%;
         float: right;
-        margin: 0 0 0 35px;
+        margin: 0 0 0 2%;
     }
 
     #welcome-section img {
         width: 100%;
         border-radius: 15px;
+    }
+
+    #welcome-section figcaption {
+        text-align: center;
+        letter-spacing: .1rem;
+    }
+
+    #welcome-text {
+        margin: 15px 2%;
     }
 
     #welcome-text p{
@@ -144,14 +154,22 @@ body, nav, header, footer {
         background-color: #1F2425;
         border: 2px solid rgb(252, 204, 132);
         border-radius: 15px;
-        padding: 0 35px 35px;
         margin: 50px 0;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
         color: rgb(255, 243, 227);
     }
     
+    #projects h1 {
+        font-size: 2.25rem;
+        margin: 0;
+        padding: 10px 2%;
+        color: rgb(255, 243, 227);
+        font-weight: 400;
+        border-bottom: 2px solid rgb(252, 204, 132);
+    }
+
     #projects ul {
-        margin: 0 0 30px 0;
+        margin: 0;
         list-style-type: circle;
     }
     
@@ -160,6 +178,10 @@ body, nav, header, footer {
         font-size: 24px;
     }
     
+    #projects-text {
+        margin: 10px 2%;
+    }
+
     section a:link {
         text-decoration: underline;
         color: #6ac9da;
@@ -172,14 +194,23 @@ body, nav, header, footer {
     section a:hover {
         color: rgb(255, 243, 227);
     }
+    
+    
+/*----------FOOTER----------*/
+footer {
+    color: rgb(255, 243, 227);
+    letter-spacing: .3rem;
+    text-align: center;
+}
 }
 
 /*:::::::::DESKTOP:::::::::*/
 @media only screen and (min-width: 601px) {
     /*---------HEADER-----------*/
     header {
-        margin: 70px auto 30px;
+        margin: 75px auto 30px;
         color: #6ac9da;
+        text-align: center;
     }
     
     header h1 {
@@ -266,12 +297,13 @@ body, nav, header, footer {
         margin: 0 2%;
     }
     
-    section h1 {
+    #welcome-section h1 {
         font-size: 2.25rem;
         margin: 0;
-        padding-top: 25px;
+        padding: 10px 2%;
         color: rgb(255, 243, 227);
         font-weight: 400;
+        border-bottom: 2px solid #ff9d6f;
     }
     
     section ul {
@@ -282,7 +314,6 @@ body, nav, header, footer {
         background-color: #1F2425;
         border: 2px solid #ff9d6f;
         border-radius: 15px;
-        padding: 0 35px;
         height: 99.7vh;
         overflow: auto;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
@@ -292,12 +323,21 @@ body, nav, header, footer {
     #welcome-section figure {
         width: 30%;
         float: right;
-        margin: 0 0 0 35px;
+        margin: 0 0 0 2%;
     }
 
     #welcome-section img {
         width: 100%;
         border-radius: 15px;
+    }
+
+    #welcome-section figcaption {
+        text-align: center;
+        letter-spacing: .1rem;
+    }
+
+    #welcome-text {
+        margin: 15px 2%;
     }
 
     #welcome-text p{
@@ -316,14 +356,22 @@ body, nav, header, footer {
         background-color: #1F2425;
         border: 2px solid rgb(252, 204, 132);
         border-radius: 15px;
-        padding: 0 35px 35px;
         margin: 50px 0;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
         color: rgb(255, 243, 227);
     }
     
+    #projects h1 {
+        font-size: 2.25rem;
+        margin: 0;
+        padding: 10px 2%;
+        color: rgb(255, 243, 227);
+        font-weight: 400;
+        border-bottom: 2px solid rgb(252, 204, 132);
+    }
+
     #projects ul {
-        margin: 0 0 30px 0;
+        margin: 0;
         list-style-type: circle;
     }
     
@@ -332,6 +380,10 @@ body, nav, header, footer {
         font-size: 24px;
     }
     
+    #projects-text {
+        margin: 10px 2%;
+    }
+
     section a:link {
         text-decoration: underline;
         color: #6ac9da;
@@ -344,12 +396,12 @@ body, nav, header, footer {
     section a:hover {
         color: rgb(255, 243, 227);
     }
-    }
     
-
+    
 /*----------FOOTER----------*/
 footer {
     color: rgb(255, 243, 227);
-    letter-spacing: .5rem;
+    letter-spacing: .3rem;
     text-align: center;
+}
 }
