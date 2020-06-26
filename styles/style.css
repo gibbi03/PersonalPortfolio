@@ -15,12 +15,12 @@ body, nav, header, footer {
         padding-top: 12px;
         margin: 0 35px;
         letter-spacing: .1rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-shadow: 0px 0px 2px black;
     }
     
     header h2 {
-        font-size: 1.2rem;
+        font-size: .8rem;
         letter-spacing: .43rem;
         margin: 0 35px;
         text-shadow: 0px 0px 2px black;
@@ -30,7 +30,7 @@ body, nav, header, footer {
     
     #navbar {
         display: flex;
-        justify-content: start;
+        justify-content: center;
         flex-direction: row;
         background-color: #1F2425;
         margin: 0 -2% 0;
@@ -96,16 +96,17 @@ body, nav, header, footer {
     }
     
     #welcome-section h1 {
-        font-size: 2.25rem;
+        font-size: 2rem;
         margin: 0;
         padding: 10px 2%;
         color: rgb(255, 243, 227);
         font-weight: 400;
         border-bottom: 2px solid #ff9d6f;
+        text-align: center;
     }
     
     section ul {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     #welcome-section {
@@ -119,14 +120,14 @@ body, nav, header, footer {
     }
 
     #welcome-section figure {
-        width: 30%;
-        float: right;
-        margin: 0 0 0 2%;
+        width: 25%;
+        float: center;
+        margin: 0 auto;
     }
 
     #welcome-section img {
         width: 100%;
-        border-radius: 15px;
+        border-radius: 100%;
     }
 
     #welcome-section figcaption {
@@ -139,15 +140,18 @@ body, nav, header, footer {
     }
 
     #welcome-text p{
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 10px;
-        text-align: justify;
+        text-align: center;
 
     }
 
     #welcome-text ul {
         columns: 2;
-        list-style-type: circle;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
     #projects {
@@ -157,6 +161,7 @@ body, nav, header, footer {
         margin: 50px 0;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.377);
         color: rgb(255, 243, 227);
+        text-align: center;
     }
     
     #projects h1 {
@@ -170,7 +175,8 @@ body, nav, header, footer {
 
     #projects ul {
         margin: 0;
-        list-style-type: circle;
+        list-style-type: none;
+        padding: 0;
     }
     
     #projects li {
@@ -362,7 +368,7 @@ footer {
     }
     
     #projects h1 {
-        font-size: 2.25rem;
+        font-size: 2rem;
         margin: 0;
         padding: 10px 2%;
         color: rgb(255, 243, 227);
@@ -401,7 +407,7 @@ footer {
 /*----------FOOTER----------*/
 footer {
     color: rgb(255, 243, 227);
-    letter-spacing: .3rem;
+    letter-spacing: 1rem;
     text-align: center;
 }
 }
