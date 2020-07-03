@@ -386,15 +386,15 @@ footer {
         color: #00d9ff;
       }
 
-      section a.link {
+      section a:link {
           text-decoration: none;
       }
 
-      section a.link:active {
+      section a:active {
           text-decoration: none;
       }
 
-      section a.link:visited {
+      section a:visited {
           text-decoration: none;
       }
     
@@ -418,6 +418,8 @@ footer {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        font-weight: 100;
+        font-family: poppins;
     }
 
     #about-text p{
