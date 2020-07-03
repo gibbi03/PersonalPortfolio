@@ -284,7 +284,23 @@ footer {
         background-color: #212121;
     }
     
-    
+    .welcome figure {
+        width: 20%;
+        float: right;
+    }
+
+    .welcome img {
+        width: 100%;
+        border-radius: 100%;
+    }
+
+    .welcome figcaption {
+        text-align: center;
+        letter-spacing: .1rem;
+        position: relative;
+        bottom: 10%;
+        font-size: 100%;
+    }
     
     .welcome {
         background-image: linear-gradient(90deg,#9C73F4 1%, #F8825B);
