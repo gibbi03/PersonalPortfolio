@@ -105,10 +105,11 @@ body, nav, header, footer {
         color: #00d9ff;
     }
     .welcome h1 {
+        text-align: center;
         padding-top: .75rem;
-        margin: 0 2rem;
+        margin: 0 0rem;
         letter-spacing: .1rem;
-        font-size: 3rem;
+        font-size: 2rem;
         text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.05);
         color: white;
         font-family: Poppins;
@@ -116,8 +117,9 @@ body, nav, header, footer {
     }
     
     .welcome h2 {
-        font-size: 1.2rem;
-        letter-spacing: .6rem;
+        font-size: .8rem;
+        text-align: center;
+        letter-spacing: .55rem;
         margin: -.5rem 2rem;
         text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.15);
         font-weight: 300;
@@ -134,13 +136,17 @@ body, nav, header, footer {
       
       .projects-header {
         max-width: 640px;
-        margin: 0 auto 6rem auto;
+        margin: 0 auto 3rem auto;
         border-bottom: 0.2rem solid #B377CE;
         font-size: 2.5rem;
         color: white;
         padding-bottom: 1.2rem;
       }
 
+      .project-tile {
+          margin: 0;
+          padding: 0;
+      }
 
       .projects-grid {
         display: grid;
@@ -149,14 +155,13 @@ body, nav, header, footer {
         width: 100%;
         max-width: 1280px;
         margin: 0 auto;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
       }
 
       .project-image {
         width: 100%;
         object-fit: fill ;
-        box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.25);
-        border-radius: 65px;
+        border-radius: 15px;
       }
       
       .project-title {
@@ -164,11 +169,10 @@ body, nav, header, footer {
         bottom: 50%;
         font-size: 2rem;
         padding: 0;
-        margin: 0;
+        margin: 0 2rem;
         color: white;
         font-family: Poppins;
-        font-weight: 400;
-        text-shadow: 5px 0px 5px rgba(0, 0, 0, 0.25);
+        font-weight: 800;
       }
 
       .project-title:hover {
@@ -355,7 +359,7 @@ footer {
       
       .projects-header {
         max-width: 640px;
-        margin: 0 auto 6rem auto;
+        margin: 0 auto 4rem auto;
         border-bottom: 0.2rem solid #B377CE;
         font-size: 3rem;
         color: white;
@@ -387,8 +391,7 @@ footer {
         margin: 0;
         color: white;
         font-family: Poppins;
-        font-weight: 400;
-        text-shadow: 5px 0px 5px rgba(0, 0, 0, 0.25);
+        font-weight: 600;
       }
 
       .project-title:hover {
@@ -404,7 +407,7 @@ footer {
 
       .about-header {
         max-width: 640px;
-        margin: 0 auto 2rem auto;
+        margin: 0 auto 3rem auto;
         border-bottom: 0.2rem solid #F8825B;
         font-size: 3rem;
         color: white;
