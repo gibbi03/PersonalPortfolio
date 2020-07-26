@@ -1,20 +1,34 @@
 import {species} from './species.js';
 import {people} from './people.js';
 
-var divToAttachTo = document.querySelector('#people');
-
+var peoplediv = document.querySelector('#people');
 
 
 
 people.map( el => {
     var rootDiv = document.createElement("div");
-    rootDiv.classList.add('card');
+    rootDiv.classList.add('characters-column');
 
     var cardDisc = document.createElement('p');
-    cardDisc.classList.add("card-text");
+    cardDisc.classList.add("column-text");
     cardDisc.innerHTML = el.name;
 
     rootDiv.append(cardDisc);
 
-    divToAttachTo.appendChild(rootDiv);
+    peoplediv.appendChild(rootDiv);
+})
+
+var speciesdiv = document.querySelector('#species');
+
+species.map( el => {
+    var rootDiv = document.createElement("div");
+    rootDiv.classList.add('species-column');
+
+    var cardDisc = document.createElement('p');
+    cardDisc.classList.add("column-text");
+    cardDisc.innerHTML = el.name;
+
+    rootDiv.append(cardDisc);
+
+    speciesdiv.appendChild(rootDiv);
 })
