@@ -24,9 +24,9 @@ body, nav, header, footer {
     
     #navbar {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: row;
-        background-color: #484848;
+        background-color: #2D2D2D;
         margin: 0;
         padding: 1rem 0;
         position: fixed;
@@ -37,7 +37,7 @@ body, nav, header, footer {
     
     #navbar div {
     font-size: 1.3rem;
-    margin-right: 4%;
+    margin-right: 2%;
     text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.15);
     padding: 0.1875rem ;
     }
@@ -334,7 +334,7 @@ footer {
         display: flex;
         justify-content: flex-end;
         flex-direction: row;
-        background-color: #484848;
+        background-color: #2D2D2D;
         margin: 0;
         padding: 1rem 0;
         position: fixed;
@@ -345,7 +345,8 @@ footer {
     
     #navbar div {
     font-size: 1.3rem;
-    margin-right: 4%;
+    margin-left: 1%;
+    margin-right: 2%;
     text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.15);
     padding: 0.1875rem ;
     }
