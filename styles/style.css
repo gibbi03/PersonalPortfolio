@@ -219,41 +219,67 @@ body, nav, header, footer {
         text-align: left;
     }
     
+/*Star Wars Stuff*/ 
+
+div.grids {
+    column-gap: 2rem;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.column-text {
+    font-weight: 400;
+    font-family: poppins;
+    font-size: 1rem;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    color: rgb(243, 229, 39);
+    display: grid;
+        grid-gap: 5rem;
+        width: 100%;
+        min-width: 11rem;
+        margin: auto;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
 /*----------Characters-------------*/
 
 #characters {
     padding: 0 2rem 10rem;
     color: white;
-    text-align: center;
   }
 
   .characters-header {
     max-width: 640px;
     margin: 0 auto 3rem auto;
     border-bottom: 0.2rem solid #F8825B;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     padding-bottom: 1.2rem;
     text-align: center;
   }
 
-  #people {
-      column-count: auto;
-      column-width: 10rem;
-      column-gap: 3rem;
-  }
+  /*#people {
+    column-gap: 3rem;
+      display: flex;
+      flex-flow: wrap;
+      align-items: center;
+  }/*
 
-.column-text {
-    font-weight: 100;
-    font-family: poppins;
-    font-size: 1rem;
-}
 
 
 /*----------Species-------------*/
 
 #speciessection {
-    text-align: center;
     padding: 0 2rem 10rem;
     color: white;
   }
@@ -262,22 +288,20 @@ body, nav, header, footer {
     max-width: 640px;
     margin: 0 auto 3rem auto;
     border-bottom: 0.2rem solid #F8825B;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     padding-bottom: 1.2rem;
     text-align: center;
   }
 
-  #species {
-    column-count: auto;
-    column-width: 10rem;
-  }
+  /*#species {
+    column-gap: 1.81rem;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }*/
 
-.column-text {
-    font-weight: 100;
-    font-family: poppins;
-    font-size: 1rem;
-}
 /*----------FOOTER----------*/
 footer {
     color: rgb(107, 107, 107);
