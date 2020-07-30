@@ -393,7 +393,6 @@ footer {
         margin: 0 2rem;
         letter-spacing: .1rem;
         font-size: 4rem;
-        text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.05);
         color: white;
         font-family: Poppins;
         font-weight: 600;
@@ -403,7 +402,6 @@ footer {
         font-size: 2rem;
         letter-spacing: .6rem;
         margin: -.5rem 2rem;
-        text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.15);
         font-weight: 300;
     }
     
@@ -494,6 +492,39 @@ footer {
         text-align: left;
     }
 
+
+/*Star Wars Stuff*/ 
+
+div.grids {
+    column-gap: 2rem;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.column-text {
+    font-weight: 400;
+    font-family: poppins;
+    font-size: 1.25rem;
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    color: rgb(243, 229, 39);
+    display: grid;
+        grid-gap: 5rem;
+        width: 100%;
+        min-width: 15rem;
+        margin: auto;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
 /*----------Characters-------------*/
 
 #characters {
@@ -511,17 +542,13 @@ footer {
     text-align: center;
   }
 
-  #people {
-      column-count: auto;
-      column-width: 10rem;
-      column-gap: 3rem;
-  }
+  /*#people {
+    column-gap: 3rem;
+      display: flex;
+      flex-flow: wrap;
+      align-items: center;
+  }/*
 
-.column-text {
-    font-weight: 100;
-    font-family: poppins;
-    font-size: 1rem;
-}
 
 
 /*----------Species-------------*/
@@ -541,16 +568,14 @@ footer {
     text-align: center;
   }
 
-  #species {
-    column-count: auto;
-    column-width: 10rem;
-  }
+  /*#species {
+    column-gap: 1.81rem;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }*/
 
-.column-text {
-    font-weight: 100;
-    font-family: poppins;
-    font-size: 1rem;
-}
     
 /*----------FOOTER----------*/
 footer {
