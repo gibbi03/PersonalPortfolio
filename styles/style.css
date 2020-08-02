@@ -42,12 +42,12 @@ body, nav, header, footer {
     padding: 0.1875rem ;
     }
     
-    #navwelcome a:link {
+    #navwelcome a:active {
         color: #39e1ff;
     }
     
     #navwelcome a:visited {
-        color: #39e1ff;
+        color: whtie;
     }
     
     #navprojects a:link {
@@ -62,17 +62,14 @@ body, nav, header, footer {
         color: #ff8d67;
     }
     
-    #navabout a:visited {
-        color: #ff8d67;
+    #navbar a:visited {
+        color: white;
     }
     
     #navbar a:link{
         text-decoration: none;
     }
     
-    #navbar a:active {
-        color: rgb(255, 243, 227);
-    }
     
     #navbar a:hover {
         color: rgb(255, 243, 227);
@@ -110,7 +107,6 @@ body, nav, header, footer {
         margin: 0 0rem;
         letter-spacing: .1rem;
         font-size: 2rem;
-        text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.05);
         color: white;
         font-family: Poppins;
         font-weight: 600;
@@ -121,7 +117,6 @@ body, nav, header, footer {
         text-align: center;
         letter-spacing: .55rem;
         margin: -.5rem 2rem;
-        text-shadow: 10px 0px 5px rgba(0, 0, 0, 0.15);
         font-weight: 300;
     }
     
@@ -400,7 +395,6 @@ footer {
     .welcome img {
         width: 100%;
         border-radius: 100%;
-        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.15);
     }
     
     .welcome {
