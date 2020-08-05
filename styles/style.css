@@ -340,7 +340,7 @@ footer {
         box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.15);
     }
     
-    #navbar div {
+    .navbar {
     font-size: 1.3rem;
     margin-left: 1%;
     margin-right: 2%;
@@ -573,9 +573,6 @@ div.grids {
 /*----------NAVBAR-----------*/
     
 .swnavbar {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
     background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
     background-position: center center; 
     margin: 0;
@@ -584,6 +581,12 @@ div.grids {
     width: 100%;
     top: 0;
     box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.rightside {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 .swtabs {
@@ -630,9 +633,9 @@ padding: 0.1875rem ;
     color: rgb(255, 243, 227);
 }
 
-div.special {
-    align-self: flex-start;
-    background-color: red;
+div#swnavpp {
+    position: fixed;
+    top: 20px;
 }
 
 /*----------Characters-------------*/
