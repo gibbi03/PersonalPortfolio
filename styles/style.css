@@ -371,6 +371,14 @@ footer {
     #navabout a:visited {
         color: #ff8d67;
     }
+
+    #navstarwars a:link {
+        color: rgb(243, 229, 39);
+    }
+    
+    #navstarwars a:visited {
+        color: rgb(243, 229, 39);
+    }
     
     #navbar a:link{
         text-decoration: none;
