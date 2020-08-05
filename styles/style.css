@@ -1,6 +1,6 @@
 
 body, nav, header, footer {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Archivo', sans-serif;
 }
 /*:::::::::PHONE:::::::::*/
 @media only screen and (max-width: 600px) {
@@ -530,7 +530,6 @@ footer {
 
 .starwarswelcome figure {
     width: 80%;
-    float: center;
 }
 
 .starwarswelcome img {
@@ -560,9 +559,8 @@ div.grids {
     font-weight: 400;
     font-family: poppins;
     font-size: 1.25rem;
-    background-color: rgb(54, 54, 54);
     border-radius: 5px;
-    color: rgb(243, 229, 39);
+    color: #FFD64E;
     display: grid;
         grid-gap: 5rem;
         width: 100%;
@@ -579,6 +577,7 @@ div.grids {
 #swbody {
     background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
     background-position: center center; 
+    font-family: 'Archivo';
 }
 /*----------NAVBAR-----------*/
     
@@ -603,7 +602,6 @@ div.grids {
 font-size: 1.3rem;
 margin-left: 1%;
 margin-right: 2%;
-text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.15);
 padding: 0.1875rem ;
 }
 
@@ -652,15 +650,14 @@ div#swnavpp {
 
 #characters {
     padding: 0 2rem 10rem;
-    color: white;
+    color: #FFD64E;
   }
 
   .characters-header {
     max-width: 640px;
     margin: 0 auto 3rem auto;
-    border-bottom: 0.2rem solid #F8825B;
     font-size: 3rem;
-    color: white;
+    color: #FFD64E;
     padding-bottom: 1.2rem;
     text-align: center;
   }
@@ -678,15 +675,14 @@ div#swnavpp {
 
 #speciessection {
     padding: 0 2rem 10rem;
-    color: white;
+    color: #FFD64E;
   }
 
   .species-header {
     max-width: 640px;
     margin: 0 auto 3rem auto;
-    border-bottom: 0.2rem solid #F8825B;
     font-size: 3rem;
-    color: white;
+    color: #FFD64E;
     padding-bottom: 1.2rem;
     text-align: center;
   }
