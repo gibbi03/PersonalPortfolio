@@ -572,7 +572,7 @@ div.grids {
 }
 /*----------NAVBAR-----------*/
     
-#swnavbar {
+.swnavbar {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
@@ -586,7 +586,7 @@ div.grids {
     box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-#swnavbar div {
+.swtabs {
 font-size: 1.3rem;
 margin-left: 1%;
 margin-right: 2%;
@@ -618,7 +618,7 @@ padding: 0.1875rem ;
     color: #ff8d67;
 }
 
-#swnavbar a:link{
+.swtabs a:link{
     text-decoration: none;
 }
 
@@ -628,6 +628,11 @@ padding: 0.1875rem ;
 
 #swnavbar a:hover {
     color: rgb(255, 243, 227);
+}
+
+div.special {
+    align-self: flex-start;
+    background-color: red;
 }
 
 /*----------Characters-------------*/
