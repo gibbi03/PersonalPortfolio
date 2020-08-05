@@ -32,3 +32,13 @@ species.map( el => {
 
     speciesdiv.appendChild(rootDiv);
 })
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("swscroll").style.width = "0%";
+  } else {
+    document.getElementById("swscroll").style.width = "80%";
+  }
+}

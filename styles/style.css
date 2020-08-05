@@ -524,6 +524,9 @@ footer {
 
 /*Star Wars Stuff*/ 
 
+#swscroll {
+    transition: 3s;
+}
 
 .starwarswelcome figure {
     width: 80%;
