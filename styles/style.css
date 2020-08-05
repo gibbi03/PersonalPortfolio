@@ -557,7 +557,64 @@ div.grids {
         align-items: center;
         justify-content: center;
 }
+/*----------NAVBAR-----------*/
+    
+#swnavbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #2D2D2D;
+    margin: 0;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.15);
+}
 
+#swnavbar div {
+font-size: 1.3rem;
+margin-left: 1%;
+margin-right: 2%;
+text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.15);
+padding: 0.1875rem ;
+}
+
+#swnavspecies a:link {
+    color: #39e1ff;
+}
+
+#swnavspecies a:visited {
+    color: #39e1ff;
+}
+
+#swnavcharacters a:link {
+    color: #e097ff;
+}
+
+#swnavcharacters a:visited {
+    color: #e097ff;
+}
+
+#swnavpp a:link {
+    color: #ff8d67;
+}
+
+#swnavpp a:visited {
+    color: #ff8d67;
+}
+
+#swnavbar a:link{
+    text-decoration: none;
+}
+
+#swnavbar a:active {
+    color: rgb(255, 243, 227);
+}
+
+#swnavbar a:hover {
+    color: rgb(255, 243, 227);
+}
 
 /*----------Characters-------------*/
 
