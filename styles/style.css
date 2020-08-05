@@ -565,13 +565,19 @@ div.grids {
         align-items: center;
         justify-content: center;
 }
+
+#swbody {
+    background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
+    background-position: center center; 
+}
 /*----------NAVBAR-----------*/
     
 #swnavbar {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    background-color: #2D2D2D;
+    background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
+    background-position: center center; 
     margin: 0;
     padding: 1rem 0;
     position: fixed;
