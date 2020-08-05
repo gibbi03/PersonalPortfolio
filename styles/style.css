@@ -524,10 +524,17 @@ footer {
 
 /*Star Wars Stuff*/ 
 
-#starwarswelcome {
-    background-image: url("https://www.xtrafondos.com/wallpapers/star-wars-logo-3654.jpg"); 
-    background-position: center center; 
-    background-size: 100% 100%; 
+
+.starwarswelcome figure {
+    width: 80%;
+    float: center;
+}
+
+.starwarswelcome img {
+    width: 100%;
+}
+
+.starwarswelcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -635,7 +642,7 @@ padding: 0.1875rem ;
 
 div#swnavpp {
     position: fixed;
-    top: 20px;
+    top: 15px;
 }
 
 /*----------Characters-------------*/
