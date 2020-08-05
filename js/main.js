@@ -36,7 +36,7 @@ species.map( el => {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
     document.getElementById("swscroll").style.width = "0%";
   } else {
     document.getElementById("swscroll").style.width = "80%";
