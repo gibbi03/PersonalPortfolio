@@ -1,9 +1,13 @@
 import {species} from './species.js';
 import {people} from './people.js';
 
+
+//---------STAR WARS------------
+
+
+//-------fuction pulling character names-------
+
 var peoplediv = document.querySelector('#people');
-
-
 
 people.map( el => {
     var rootDiv = document.createElement("div");
@@ -17,6 +21,9 @@ people.map( el => {
 
     peoplediv.appendChild(rootDiv);
 })
+
+
+//-----------pulling species----------
 
 var speciesdiv = document.querySelector('#species');
 
@@ -33,6 +40,9 @@ species.map( el => {
     speciesdiv.appendChild(rootDiv);
 })
 
+
+//--------SW image animation----------
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -42,3 +52,16 @@ function scrollFunction() {
     document.getElementById("swscroll").style.width = "80%";
   }
 }
+
+
+
+
+//CARDS
+
+
+//-------card flip-----------
+
+var card = document.querySelector('.card');
+card.addEventListener( 'click', function() {
+  card.classList.toggle('is-flipped');
+});

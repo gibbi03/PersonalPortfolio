@@ -20,6 +20,11 @@ body, nav, header, footer {
     section a:visited {
         text-decoration: none;
     }
+
+
+
+
+
     /*----------NAVBAR-----------*/
     
     #navbar {
@@ -78,11 +83,20 @@ body, nav, header, footer {
         color: rgb(255, 243, 227);
     }
     
+
+
+
+
     /*---------BODY-------------*/
+
     body {
         background-color: #212121;
     }
     
+
+
+    /*-------Welcome-------*/
+
     .welcome figure {
         width: 50%;
         float: right;
@@ -122,9 +136,9 @@ body, nav, header, footer {
         font-weight: 400;
     }
     
-/*---------PROJECTS-------------*/
 
-    
+
+/*---------PROJECTS-------------*/
 
     .projects {
         text-align: center;
@@ -177,6 +191,8 @@ body, nav, header, footer {
       }
     
 
+/*----------About-----------*/
+
     .about {
         text-align: center;
         padding: 0 2rem 10rem;
@@ -216,7 +232,11 @@ body, nav, header, footer {
         text-align: left;
     }
     
-/*Star Wars Stuff*/ 
+
+
+
+
+/*----STAR WARS------*/ 
 
 div.grids {
     column-gap: 2rem;
@@ -307,7 +327,12 @@ footer {
 }
 }
 
+
+
+
+
 /*:::::::::DESKTOP:::::::::*/
+
 @media only screen and (min-width: 601px) {
     img {
         display: block;
@@ -325,7 +350,11 @@ footer {
     section a:visited {
         text-decoration: none;
     }
-    /*----------NAVBAR-----------*/
+
+
+
+
+/*----------NAVBAR-----------*/
     
     #navbar {
         display: flex;
@@ -346,6 +375,21 @@ footer {
     margin-right: 2%;
     text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.15);
     padding: 0.1875rem ;
+    }
+
+    
+/*---------Navbar Tabs---------*/
+
+    #navbar a:link{
+        text-decoration: none;
+    }
+    
+    #navbar a:active {
+        color: rgb(255, 243, 227);
+    }
+    
+    #navbar a:hover {
+        color: rgb(255, 243, 227);
     }
     
     #navwelcome a:link {
@@ -379,24 +423,27 @@ footer {
     #navstarwars a:visited {
         color: rgb(243, 229, 39);
     }
-    
-    #navbar a:link{
-        text-decoration: none;
+
+    #navcards a:link {
+        color: rgb(17, 194, 11);
     }
     
-    #navbar a:active {
-        color: rgb(255, 243, 227);
+    #navcards a:visited {
+        color: rgb(17, 194, 11);
     }
     
-    #navbar a:hover {
-        color: rgb(255, 243, 227);
-    }
-    
-    /*---------BODY-------------*/
+
+
+
+/*---------BODY-------------*/
+
     body {
         background-color: #212121;
     }
-    
+
+
+/*-------Welcome---------*/
+
     .welcome figure {
         width: 20rem;
         float: center;
@@ -434,7 +481,9 @@ footer {
         font-weight: 400;
     }
     
-/*---------PROJECTS-------------*/
+
+/*---------Projects-------------*/
+
     .projects {
         text-align: center;
         padding: 5rem 2rem;
@@ -448,7 +497,6 @@ footer {
         color: white;
         padding-bottom: 1.2rem;
       }
-
 
       .projects-grid {
         display: grid;
@@ -481,6 +529,8 @@ footer {
         color: #00d9ff;
       }
     
+
+/*---------About-----------*/
 
     .about {
         text-align: center;
@@ -522,46 +572,55 @@ footer {
     }
 
 
-/*Star Wars Stuff*/ 
 
-#swscroll {
-    transition: 13s;
-}
 
-.starwarswelcome figure {
-    width: 80%;
-}
 
-.starwarswelcome img {
-    width: 100%;
-}
 
-.starwarswelcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    color: #2D2D2D;
-}
 
-div.grids {
-    column-gap: 2rem;
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
-    justify-content: space-evenly;
 
-}
 
-.column-text {
-    font-weight: 400;
-    font-family: poppins;
-    font-size: 1.25rem;
-    border-radius: 5px;
-    color: #FFD64E;
-    display: grid;
+
+
+/*-----STAR WARS-------*/ 
+
+    #swscroll {
+        transition: 13s;
+    }
+
+    .starwarswelcome figure {
+        width: 80%;
+    }
+
+    .starwarswelcome img {
+        width: 100%;
+    }
+
+    .starwarswelcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        color: #2D2D2D;
+    }
+
+    div.grids {
+        column-gap: 2rem;
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .column-text {
+        font-weight: 400;
+        font-family: poppins;
+        font-size: 1.25rem;
+        border-radius: 5px;
+        color: #FFD64E;
+        display: grid;
         grid-gap: 5rem;
         width: 100%;
         min-width: 15rem;
@@ -572,92 +631,94 @@ div.grids {
         display: flex;
         align-items: center;
         justify-content: center;
-}
+    }
 
-#swbody {
-    background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
-    background-attachment: fixed;
-    background-position: center center; 
-    font-family: 'Archivo';
-}
-/*----------NAVBAR-----------*/
+    #swbody {
+        background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/ Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
+        background-attachment: fixed;
+        background-position: center center; 
+        font-family: 'Archivo';
+    }
+
+
+/*----------Navbar-----------*/
     
-.swnavbar {
-    background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
-    background-position: center center; 
-    margin: 0;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.15);
-}
+    .swnavbar {
+        background-image: url("https://cutewallpaper.org/21/star-wars-starfield-background/ Star-Wars-Backgrounds-Wallpaper-Cave.jpg"); 
+        background-position: center center; 
+        margin: 0;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        box-shadow: 10px 1px 5px rgba(0, 0, 0, 0.15);
+    }
 
-.rightside {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
+    .rightside {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
 
-.swtabs {
-font-size: 1.3rem;
-margin-left: 1%;
-margin-right: 2%;
-padding: 0.1875rem ;
-}
+    .swtabs {
+        font-size: 1.3rem;
+        margin-left: 1%;
+        margin-right: 2%;
+        padding: 0.1875rem ;
+    }
 
-#swnavspecies a:link {
-    color: #39e1ff;
-}
+    #swnavspecies a:link {
+        color: #39e1ff;
+    }
 
-#swnavspecies a:visited {
-    color: #39e1ff;
-}
+    #swnavspecies a:visited {
+        color: #39e1ff;
+    }
 
-#swnavcharacters a:link {
-    color: #e097ff;
-}
+    #swnavcharacters a:link {
+        color: #e097ff;
+    }
 
-#swnavcharacters a:visited {
-    color: #e097ff;
-}
+    #swnavcharacters a:visited {
+        color: #e097ff;
+    }
 
-#swnavpp a:link {
-    color: #ff8d67;
-}
+    #swnavpp a:link {
+        color: #ff8d67;
+    }
 
-#swnavpp a:visited {
-    color: #ff8d67;
-}
+    #swnavpp a:visited {
+        color: #ff8d67;
+    }
 
-.swtabs a:link{
-    text-decoration: none;
-}
+    .swtabs a:link{
+        text-decoration: none;
+    }
 
-#swnavbar a:active {
-    color: rgb(255, 243, 227);
-}
+    #swnavbar a:active {
+        color: rgb(255, 243, 227);
+    }
 
-#swnavbar a:hover {
-    color: rgb(255, 243, 227);
-}
+    #swnavbar a:hover {
+        color: rgb(255, 243, 227);
+    }
 
 
 /*----------Characters-------------*/
 
-#characters {
-    padding: 0 2rem 10rem;
-    color: #FFD64E;
-  }
+    #characters {
+        padding: 0 2rem 10rem;
+        color: #FFD64E;
+    }
 
-  .characters-header {
-    max-width: 640px;
-    margin: 0 auto 3rem auto;
-    font-size: 3rem;
-    color: #FFD64E;
-    padding-bottom: 1.2rem;
-    text-align: center;
-  }
+    .characters-header {
+        max-width: 640px;
+        margin: 0 auto 3rem auto;
+        font-size: 3rem;
+        color: #FFD64E;
+        padding-bottom: 1.2rem;
+        text-align: center;
+    }
 
   /*#people {
     column-gap: 3rem;
@@ -667,22 +728,21 @@ padding: 0.1875rem ;
   }/*
 
 
-
 /*----------Species-------------*/
 
-#speciessection {
-    padding: 0 2rem 10rem;
-    color: #FFD64E;
-  }
+    #speciessection {
+        padding: 0 2rem 10rem;
+        color: #FFD64E;
+    }
 
-  .species-header {
-    max-width: 640px;
-    margin: 0 auto 3rem auto;
-    font-size: 3rem;
-    color: #FFD64E;
-    padding-bottom: 1.2rem;
-    text-align: center;
-  }
+    .species-header {
+        max-width: 640px;
+        margin: 0 auto 3rem auto;
+        font-size: 3rem;
+        color: #FFD64E;
+        padding-bottom: 1.2rem;
+        text-align: center;
+    }
 
   /*#species {
     column-gap: 1.81rem;
@@ -692,11 +752,70 @@ padding: 0.1875rem ;
       align-items: center;
   }*/
 
+
+  
+
+
+
+
+
+
+/*-----------CARDS-----------*/
+
+    .scene {
+        width: 200px;
+        height: 260px;
+        border: 1px solid #CCC;
+        margin: 40px 0;
+        perspective: 600px;
+    }
+  
+    .card {
+        width: 100%;
+        height: 100%;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        position: relative;
+    }
+  
+    .card.is-flipped {
+    transform: rotateY(180deg);
+    }
+  
+    .card__face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        line-height: 260px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        backface-visibility: hidden;
+    }
+  
+    .card__face--front {
+        background: red;
+    }
+  
+    .card__face--back {
+        background: blue;
+        transform: rotateY(180deg);
+    }
+
+
+
+
+
+
+
     
 /*----------FOOTER----------*/
-footer {
-    color: rgb(107, 107, 107);
-    letter-spacing: .2rem;
-    text-align: center;
-}
+
+    footer {
+        color: rgb(107, 107, 107);
+        letter-spacing: .2rem;
+        text-align: center;
+    }
 }
